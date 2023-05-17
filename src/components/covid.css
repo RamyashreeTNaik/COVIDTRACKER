@@ -1,0 +1,71 @@
+/** @format */
+
+body {
+  background: #ccc;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  place-items: center;
+}
+
+.card_Inner {
+  text-align: center;
+  position: relative;
+  padding: 50px;
+}
+.card_Main {
+  width: 80%;
+  height: 200px;
+  background: #fff;
+  text-align: center;
+}
+.card_Main:hover {
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+}
+
+.unList {
+  list-style-type: none;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card_name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 22px;
+}
+
+.card_total {
+  font-size: 15px;
+}
+.animate-charcter:hover {
+  color: darkslategrey;
+}
+
+.live:hover {
+  font-size: 150%;
+}
+.box1 {
+  background-color: aquamarine;
+}
+.box2 {
+  background-color: rgb(38, 187, 87);
+}
+.box3 {
+  background-color: rgb(117, 164, 226);
+}
+
+.box4 {
+  background-color: rgb(184, 129, 221);
+}
+.box5 {
+  background-color: rgb(139, 226, 39);
+}
+.box6 {
+  background-color: rgb(218, 132, 35);
+}
+@media (max-width: 768px) {
+  .card_Main {
+    width: 90% !important; /* Adjust the width for smaller screens */
+  }
+}
